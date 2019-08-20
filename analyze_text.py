@@ -1,3 +1,12 @@
+"""
+Provides top key words from text chunk.
+
+text_analysis.py was built to analyze chunks of text. More specifically, reviews scraped from the web. It is passed a business
+slug to identify data from the database. FrequencyDistribution holds a mapping from words to counts, and functions such as
+tokenize() create lists of words that can be mapped. 
+
+Next steps: Generalize this script further by stripping out database functions.
+"""
 import argparse
 from django.conf import settings
 import nltk
